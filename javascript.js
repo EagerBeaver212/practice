@@ -11,10 +11,10 @@
 // hello('Ari'); // Hello Ari!
 // hello();      // Hello Chris!
 
-function favoriteAnimal(animal) {
-  return animal + " is my favorite animal!"
-}
+// function favoriteAnimal(animal) {
+//   return animal + " is my favorite animal!"
+// }
 
-console.log(favoriteAnimal('Goat'));
+// console.log(favoriteAnimal('Goat'));
 
-alert(favoriteAnimal("dog"));
+// alert(favoriteAnimal("dog"));
