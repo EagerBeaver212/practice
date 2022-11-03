@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- <script src="javascript.js"></script> -->
+
+  <script>
+
+    function add7(number) {
+      return (number + 7)
+    }
+    console.log(add7(5));
+
+    function multiply(val1,val2) {
+      return (val1 * val2)
+    }
+    console.log(multiply(6,6));
+
+    function capitalise(string) {
+      return (string.charAt(0).toUpperCase()) //+ string.slice(1)
+    }
+    console.log(capitalise("yeeeeeeeeeeeEEEEEEEE"));
+
+    function lastLetter(string) {
+      // return (string.charAt(string.length))
+      return (string.charAt(string.length - 1))
+    }
+    console.log(lastLetter("aiudheiuhdweiuhdbc"));
+
+    function isPositive(number) {
+      return number >= 0
+    }
+    console.log (isPositive(69));
+
+    let isPostitive2 = number => number >= 0
+    console.log (isPostitive2(69))
+
+  </script>
+
+</body>
+</html>
