@@ -36,3 +36,6 @@ divParagraph.textContent = 'ME TOO!'
 myDiv.append(divParagraph)
 
 container.append(myDiv)
+
+const allps = document.querySelectorAll('p')
+console.log(allps)
